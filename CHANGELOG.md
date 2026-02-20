@@ -2,7 +2,7 @@
 
 PyCheval adheres to [semantic versioning](https://semver.org/).
 
-## Unreleased
+## 0.3.3 – 2026-02-14
 
 ### Fixed
 
@@ -10,7 +10,7 @@ PyCheval adheres to [semantic versioning](https://semver.org/).
 - `Money` instances now compare equal if the amounts are numerically equal,
   even if they have different numbers of decimal places. Reported by
   Michal Čihař.
-- Use commericial rounding in `Money` class. Contributed by Jason Schuehlein.
+- Use commercial rounding in `Money` class. Contributed by Jason Schuehlein.
 
 ## 0.3.2 – 2026-02-13
 
