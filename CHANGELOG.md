@@ -7,6 +7,8 @@ PyCheval adheres to [semantic versioning](https://semver.org/).
 ### Fixed
 
 - Don't generate empty trade party fields.
+- `Money` instances now compare equal if the amounts are numerically equal,
+  even if they have different numbers of decimal places.
 
 ## 0.3.2 – 2026-02-13
 

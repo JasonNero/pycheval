@@ -42,8 +42,6 @@ class Money:
             value.currency,
         ):
             return False
-        if self.amount.as_tuple().exponent != value.amount.as_tuple().exponent:
-            return False
         return True
 
     def __repr__(self) -> str:

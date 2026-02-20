@@ -18,6 +18,7 @@ class TestMoney:
     def test_eq(self) -> None:
         assert Money("100.00", "EUR") == Money("100.00", "EUR")
         assert Money("100.00", "EUR") == Money(Decimal("100.00"), "EUR")
+        assert Money("100.00", "EUR") == Money("100", "EUR")
         assert Money("100.00", "EUR") != Money("100.00", "USD")
         assert Money("100.00", "EUR") != Money("200.00", "EUR")
-        assert Money("100.00", "EUR") != Money("100", "EUR")
+        assert Money("100.12", "EUR") != Money("100", "EUR")
